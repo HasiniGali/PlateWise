@@ -4,7 +4,7 @@ import { Card } from '../../components/ui/Card';
 import { Button } from '../../components/ui/Button';
 import { ProgressBar } from '../../components/ui/ProgressBar';
 import { Badge } from '../../components/ui/Badge';
-import { WalletIcon, ArrowRightIcon, RupeeIcon, CheckCircleIcon } from '../../components/ui/Icons';
+import { WalletIcon, ArrowRightIcon, RupeeIcon } from '../../components/ui/Icons';
 import { formatINR } from '../../lib/currency';
 
 interface MealAllocation {
