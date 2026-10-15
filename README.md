@@ -64,11 +64,109 @@ Install Node.js and npm.
 
 
 
-1\. Clone this repository:
+1\. Clone the repository:
 
 
 
 &#x20;  ```bash
 
 &#x20;  git clone https://github.com/HasiniGali/PlateWise.git
+
+&#x20;  ```
+
+
+
+2\. Navigate to the frontend directory:
+
+
+
+&#x20;  ```bash
+
+&#x20;  cd frontend
+
+&#x20;  ```
+
+
+
+3\. Install dependencies:
+
+
+
+&#x20;  ```bash
+
+&#x20;  npm install
+
+&#x20;  ```
+
+
+
+4\. Start the development server:
+
+
+
+&#x20;  ```bash
+
+&#x20;  npm run dev
+
+&#x20;  ```
+
+
+
+5\. Open the local URL displayed in your terminal.
+
+
+
+\## 📁 Project Structure
+
+
+
+```text
+
+frontend/
+
+├── public/
+
+├── src/
+
+├── index.html
+
+├── package.json
+
+├── package-lock.json
+
+├── tsconfig.json
+
+└── vite.config.ts
+
+```
+
+
+
+\## 🎯 Project Goal
+
+
+
+PlateWise combines recipe discovery, ingredient-based search, meal recommendations, and food budget management in one application.
+
+
+
+\## 🔮 Future Improvements
+
+
+
+\- Backend integration
+
+\- Database connectivity
+
+\- User authentication
+
+\- Enhanced recipe recommendations
+
+
+
+\---
+
+
+
+\*\*PlateWise — Discover meals. Plan smarter. Spend better.\*\*
 
