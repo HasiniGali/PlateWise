@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  /* Pastel & Warm Cream Palette */
+  --color-bg-base: #FFF9F2;
+  --color-bg-surface: #FFF3E6;
+  --color-bg-card: #FFFFFF;
+  --color-bg-card-hover: #FFFDFB;
+  --color-bg-elevated: #FFFFFF;
+
+  /* Pastel Accent Tokens */
+  --color-pastel-peach: #FFCDB2;
+  --color-pastel-pink: #FFB5C5;
+  --color-pastel-sage: #B8D8BA;
+  --color-pastel-butter: #FFE8A3;
+  --color-pastel-lavender: #DCD6F7;
+
+  /* Accessible Interactive Accents */
+  --color-primary: #E07A5F;
+  --color-primary-hover: #C8664B;
+  --color-primary-muted: rgba(255, 205, 178, 0.45);
+
+  --color-accent-emerald: #3D784E;
+  --color-accent-emerald-hover: #2E603C;
+  --color-accent-emerald-muted: rgba(184, 216, 186, 0.45);
+
+  --color-accent-coral: #D9534F;
+  --color-accent-coral-hover: #C03E3A;
+  --color-accent-coral-muted: rgba(255, 181, 197, 0.45);
+
+  --color-accent-blue: #5C768D;
+  --color-accent-blue-muted: rgba(220, 214, 247, 0.45);
+
+  /* Typography */
+  --color-text-primary: #38352F;
+  --color-text-secondary: #777168;
+  --color-text-muted: #9E978E;
+
+  /* Borders */
+  --color-border-subtle: #F3EAE0;
+  --color-border-default: #EADBCC;
+  --color-border-highlight: #FFCDB2;
+
+  /* Geometry & Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Accessibility: Visible Focus Rings */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Base custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #EADBCC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D8C6B4;
+}
+
+/* Respect user's system motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
