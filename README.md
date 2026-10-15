@@ -6,7 +6,7 @@
 
 
 
-PlateWise is a food discovery and meal-planning web application designed to help users explore recipes, discover meals based on available ingredients, and manage their food budgets.
+PlateWise is a web application designed to help users discover recipes, find meals using available ingredients, and manage their food budgets.
 
 
 
@@ -14,19 +14,19 @@ PlateWise is a food discovery and meal-planning web application designed to help
 
 
 
-\- 🍲 \*\*Recipe Discovery\*\* — Explore recipes and discover new meals.
+\- \*\*Recipe Discovery:\*\* Explore different recipes.
 
-\- 🔎 \*\*Ingredient Finder\*\* — Find recipes based on available ingredients.
+\- \*\*Ingredient Finder:\*\* Find recipes using available ingredients.
 
-\- 💡 \*\*Smart Recommendations\*\* — Discover meal options based on user preferences.
+\- \*\*Smart Recommendations:\*\* Discover meals based on preferences.
 
-\- 💰 \*\*Budget Management\*\* — Track food expenses and manage spending.
+\- \*\*Budget Management:\*\* Track food expenses.
 
-\- ❤️ \*\*Favorites\*\* — Save recipes for quick access.
+\- \*\*Favorites:\*\* Save recipes for later.
 
-\- 📊 \*\*Dashboard\*\* — View useful information about recipes and spending.
+\- \*\*Dashboard:\*\* View recipe and spending information.
 
-\- 📱 \*\*Responsive Design\*\* — Access the application on different screen sizes.
+\- \*\*Responsive Design:\*\* Use the application on different screen sizes.
 
 
 
@@ -56,7 +56,7 @@ PlateWise is a food discovery and meal-planning web application designed to help
 
 
 
-Install Node.js and npm before running the application.
+Install Node.js and npm.
 
 
 
@@ -64,11 +64,11 @@ Install Node.js and npm before running the application.
 
 
 
-1\. Clone the repository:
+1\. Clone this repository:
 
 
 
 &#x20;  ```bash
 
-&#x20;  git clone https://github.com/YOUR\_USERNAME/PlateWise.git
+&#x20;  git clone https://github.com/HasiniGali/PlateWise.git
 
